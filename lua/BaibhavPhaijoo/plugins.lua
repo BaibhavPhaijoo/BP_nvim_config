@@ -61,6 +61,7 @@ require("lazy").setup({
 
 
     },
+    { "hrsh7th/cmp-buffer" },    
 
     {
         "neovim/nvim-lspconfig",
