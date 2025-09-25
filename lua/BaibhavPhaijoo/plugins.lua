@@ -78,4 +78,28 @@ require("lazy").setup({
         end
     },
 
+    {
+        "L3MON4D3/LuaSnip",
+        version = "v2.*", -- follow latest stable release
+        build = "make install_jsregexp", -- optional: enables regex support
+        dependencies = {
+            "rafamadriz/friendly-snippets", -- community snippets
+        },
+        config = function()
+            require("luasnip.loaders.from_vscode").lazy_load()
+        end,
+    },
+
+    {
+        "nvim-lualine/lualine.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" }, -- optional, for nice filetype icons
+        config = function()
+            require("lualine").setup({
+                options = {
+                    theme = "auto", -- picks colors based on your colorscheme
+                },
+            })
+        end,
+    }
+
 })     
