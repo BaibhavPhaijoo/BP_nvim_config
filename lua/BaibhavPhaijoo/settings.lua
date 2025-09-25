@@ -20,3 +20,5 @@ vim.o.shiftwidth = 4
 -- When using >> or <<, use shiftwidth
 vim.o.smartindent = true
 
+-- to remove the intro text
+vim.opt.shortmess:append("I")
