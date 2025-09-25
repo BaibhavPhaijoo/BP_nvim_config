@@ -6,7 +6,6 @@ require("lazy").setup({
         priority = 1000, -- make sure it loads before other plugins
         config = function()
             -- Pick your favorite variant: "nightfox", "duskfox", "dawnfox", "terafox", "carbonfox", etc.
-            vim.cmd.colorscheme("nightfox")
         end,
     },
 
@@ -101,6 +100,8 @@ require("lazy").setup({
                 },
             })
         end,
-    }
+    },
+    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
+    { "navarasu/onedark.nvim", priority = 1000 }
 
 })     

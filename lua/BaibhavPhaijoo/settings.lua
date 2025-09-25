@@ -22,3 +22,9 @@ vim.o.smartindent = true
 
 -- to remove the intro text
 vim.opt.shortmess:append("I")
+
+-- vim.cmd("colorscheme nightfox")
+-- vim.cmd("colorscheme carbonfox")
+-- 
+-- vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme gruvbox")
