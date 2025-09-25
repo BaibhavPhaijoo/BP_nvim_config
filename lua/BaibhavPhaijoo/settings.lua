@@ -1,7 +1,6 @@
 
 vim.o.number = true
 vim.o.relativenumber = true
-vim.o.clipboard = "unnamedplus"
 
 -- Set leader key to space
 vim.g.mapleader = " "
@@ -28,3 +27,5 @@ vim.opt.shortmess:append("I")
 -- 
 -- vim.cmd("colorscheme onedark")
 vim.cmd("colorscheme gruvbox")
+
+vim.o.clipboard = "unnamedplus"
