@@ -12,6 +12,7 @@ require("lazy").setup({
     {
         "williamboman/mason.nvim",
         lazy = false, -- load on startup
+        priority = 1000, -- make sure it loads before other plugins
         config = function()
             require("mason").setup()
         end,
@@ -21,6 +22,8 @@ require("lazy").setup({
     {
         "williamboman/mason-lspconfig.nvim",
         lazy = false,
+        priority = 1000, -- make sure it loads before other plugins
+
         config = function()
             require("mason-lspconfig").setup()
         end,
@@ -102,6 +105,19 @@ require("lazy").setup({
         end,
     },
     { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
-    { "navarasu/onedark.nvim", priority = 1000 }
+    { "navarasu/onedark.nvim", priority = 1000 },
+
+    {
+        "folke/flash.nvim",
+        event = "VeryLazy",   -- or choose a lazy-load trigger you prefer
+        opts = {},
+        keys = {
+            { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
+            { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
+            { "r", mode = "o", function() require("flash").remote() end, desc = "Remote Flash" },
+            { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
+            { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
+        },
+    }
 
 })     
