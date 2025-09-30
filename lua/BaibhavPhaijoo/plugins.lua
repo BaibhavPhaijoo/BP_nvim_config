@@ -105,6 +105,7 @@ require("lazy").setup({
         end,
     },
     { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
+
     { "navarasu/onedark.nvim", priority = 1000 },
 
     {
@@ -118,6 +119,18 @@ require("lazy").setup({
             { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
             { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
         },
+    },
+    {
+        "tribela/transparent.nvim",
+        event = "VimEnter",
+        config = function()
+            require("transparent").setup({
+                -- optional settings here
+                -- e.g. extra_groups = { "NormalFloat", "NvimTreeNormal" },
+                -- excludes = { "SomeGroupYouDon’tWantTransparent" },
+                -- auto = true,  (automatically apply transparency)
+            })
+        end,
     }
 
 })     
