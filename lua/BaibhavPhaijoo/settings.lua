@@ -27,5 +27,6 @@ vim.opt.shortmess:append("I")
 -- 
 -- vim.cmd("colorscheme onedark")
 vim.cmd("colorscheme gruvbox")
+-- vim.cmd("colorscheme vague")
 
 vim.o.clipboard = "unnamedplus"
