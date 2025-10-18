@@ -1,4 +1,3 @@
-
 require("lazy").setup({ 
     {
         "EdenEast/nightfox.nvim",
@@ -141,8 +140,23 @@ require("lazy").setup({
             require("vague").setup({
                 -- optional configuration here
             })
-            vim.cmd("colorscheme vague")
         end
+    },
+
+    {
+        "rose-pine/neovim",
+        name = "rose-pine",
+        config = function()
+            require("rose-pine").setup({
+                --- You can customize options here ---
+                dark_variant = "moon", -- "moon", "dawn", or "main"
+                disable_background = false,
+                disable_float_background = true,
+                highlight_groups = {},
+            })
+            vim.cmd("colorscheme rose-pine")
+        end,
     }
+
 
 })     

@@ -1,23 +1,23 @@
 -- to show hints and messages
 vim.keymap.set(
     { "n" },                 -- normal mode
-    "K",                     -- key to press
+    "<leader>i",                     -- key to press
     vim.lsp.buf.hover,       -- function to call
     { noremap = true, silent = true }
 )
 
 -- Function to create a new file silently
 function CreateFileWithoutOpening()
-  local filename = vim.fn.input("New file: ")
-  if filename ~= "" then
-    local file = io.open(filename, "w")  -- create file
-    if file then
-      file:close()
-      print("File created: " .. filename)
-    else
-      print("Error creating file: " .. filename)
+    local filename = vim.fn.input("New file: ")
+    if filename ~= "" then
+        local file = io.open(filename, "w")  -- create file
+        if file then
+            file:close()
+            print("File created: " .. filename)
+        else
+            print("Error creating file: " .. filename)
+        end
     end
-  end
 end
 
 -- Keymap to trigger it: <leader>nf
@@ -27,6 +27,32 @@ vim.api.nvim_set_keymap("n", "<leader>nf", ":lua CreateFileWithoutOpening()<CR>"
 --
 vim.keymap.set(
     "i",
-    "<C-j>", "<Right>",
+    "<C-l>", "<Right>",
     { noremap = true, silent = true 
+})
+
+
+vim.keymap.set(
+    "i",
+    "<C-j>", "<Left>",
+    { noremap = true, silent = true 
+})
+
+vim.keymap.set(
+    {"n"},
+    "<leader>e", ":Ex<enter>",
+    {noremap = true, silent = true
+})
+
+vim.keymap.set (
+    "n",
+    "<leader>hh", ":bn<enter>",
+    {noremap = true, silent = true
+})
+
+
+vim.keymap.set (
+    "n",
+    "<leader>ll", ":bp<enter>",
+    {noremap = true, silent = true
 })
