@@ -156,7 +156,9 @@ require("lazy").setup({
             })
             vim.cmd("colorscheme rose-pine")
         end,
-    }
+    },
+
+{ "folke/zen-mode.nvim", opts = {} }
 
 
 })     

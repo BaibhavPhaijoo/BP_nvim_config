@@ -20,5 +20,6 @@
   "rose-pine": { "branch": "main", "commit": "72a04c4065345b51b56aed4859ea1d884f734097" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
   "transparent.nvim": { "branch": "main", "commit": "a4145c52f5421f1626a4d7dc0f41e785c4439944" },
-  "vague.nvim": { "branch": "main", "commit": "cdbfdc8cc1122b8aa9609a7a681c5c501976a387" }
+  "vague.nvim": { "branch": "main", "commit": "cdbfdc8cc1122b8aa9609a7a681c5c501976a387" },
+  "zen-mode.nvim": { "branch": "main", "commit": "438a59c33763d79e34ceb394e012c3bfd6aa1084" }
 }

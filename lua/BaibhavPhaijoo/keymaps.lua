@@ -44,6 +44,8 @@ vim.keymap.set(
     {noremap = true, silent = true
 })
 
+-- To switch between buffers
+---------------------------------
 vim.keymap.set (
     "n",
     "<leader>hh", ":bn<enter>",
@@ -56,3 +58,17 @@ vim.keymap.set (
     "<leader>ll", ":bp<enter>",
     {noremap = true, silent = true
 })
+---------------------------------
+
+vim.keymap.set("n",
+"<leader>z", ":ZenMode<CR>",
+{ desc = "Toggle Zen Mode" })
+
+
+-- to build code
+vim.keymap.set (
+    "n",
+    "<leader>mk", ":make<enter>",
+    {noremap = true, silent = true
+})
+
