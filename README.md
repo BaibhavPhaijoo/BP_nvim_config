@@ -9,8 +9,9 @@
 1. Open PowerShell.
 2. Clone the repository to your Neovim config directory:
 
+``` bash
 git clone https://github.com/BaibhavPhaijoo/BP_nvim_config.git $env:LOCALAPPDATA\nvim
-
+```
 3. Open Neovim and run `:Lazy sync` (if using Lazy.nvim) to install plugins.
 
 ---
@@ -20,8 +21,9 @@ git clone https://github.com/BaibhavPhaijoo/BP_nvim_config.git $env:LOCALAPPDATA
 1. Open Terminal.
 2. Clone the repository:
 
+``` bash
 git clone https://github.com/BaibhavPhaijoo/BP_nvim_config.git ~/.config/nvim
-
+```
 3. Open Neovim and run `:Lazy sync` to install plugins.
 
 ---
@@ -30,9 +32,9 @@ git clone https://github.com/BaibhavPhaijoo/BP_nvim_config.git ~/.config/nvim
 
 1. Open a terminal.
 2. Clone the repository:
-
+```bash
 git clone https://github.com/BaibhavPhaijoo/BP_nvim_config.git ~/.config/nvim
-
+```
 3. Open Neovim and run `:Lazy sync` to install plugins.
 
 ---
