@@ -10,5 +10,6 @@ pcall(require, "BaibhavPhaijoo.keymaps")
 
 pcall(require,"BaibhavPhaijoo.zen-mode")
 
-pcall(require,"BaibhavPhaijoo.colon_make.lua")
+pcall(require,"BaibhavPhaijoo.colon_make")
 
+pcall(require,"BaibhavPhaijoo.xml_axaml_xaml")

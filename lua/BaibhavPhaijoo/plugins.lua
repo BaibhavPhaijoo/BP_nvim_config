@@ -158,7 +158,13 @@ require("lazy").setup({
         end,
     },
 
-{ "folke/zen-mode.nvim", opts = {} }
+{ "folke/zen-mode.nvim", opts = {} },
+
+
+{
+  "chrisbra/vim-xml-runtime",
+  ft = { "xml", "xaml", "axaml" },
+}
 
 
 })     
