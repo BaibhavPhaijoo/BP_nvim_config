@@ -160,11 +160,23 @@ require("lazy").setup({
 
 { "folke/zen-mode.nvim", opts = {} },
 
-
-{
-  "chrisbra/vim-xml-runtime",
-  ft = { "xml", "xaml", "axaml" },
-}
-
-
+ {
+   "nvim-tree/nvim-tree.lua",
+   version = "*",
+   lazy = false,
+   dependencies = {
+     "nvim-tree/nvim-web-devicons",
+   },
+   config = function()
+     require("nvim-tree").setup {}
+   end,
+ },
+ {
+        "matze/vim-move",
+        config = function()
+            -- default keymaps are Alt+j / Alt+k in normal and visual mode
+            vim.g.move_map_keys = "<A-j>,<A-k>" 
+        end
+    }
+ 
 })     

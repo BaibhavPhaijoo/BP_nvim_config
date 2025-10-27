@@ -48,14 +48,14 @@ vim.keymap.set(
 ---------------------------------
 vim.keymap.set (
     "n",
-    "<leader>hh", ":bn<enter>",
+    "<leader>H", ":bn<enter>",
     {noremap = true, silent = true
 })
 
 
 vim.keymap.set (
     "n",
-    "<leader>ll", ":bp<enter>",
+    "<leader>L", ":bp<enter>",
     {noremap = true, silent = true
 })
 ---------------------------------
@@ -72,3 +72,15 @@ vim.keymap.set (
     {noremap = true, silent = true
 })
 
+
+vim.keymap.set (
+    "n",
+    "<leader><leader>", ":norm gg=G<enter>",
+    {noremap = true, silent = true
+})
+
+
+vim.api.nvim_set_keymap(
+    'n', '<leader>nt', ':NvimTreeToggle<CR>', 
+    { noremap = true, silent = true }
+)
