@@ -1,0 +1,21 @@
+-- -- Autocmd for C files
+-- vim.api.nvim_create_autocmd("FileType", {
+--     pattern = "c",
+--     callback = function()
+--         local function compile_c_code()
+--             local filename = vim.fn.expand("%")      -- current file
+--             local output = vim.fn.expand("%:r")      -- filename without extension
+--             local cmd = "gcc " .. filename .. " -o " .. output
+--             -- run the compilation without opening a terminal
+--             local result = vim.fn.system(cmd)
+--             local status = vim.v.shell_error
+--             if status == 0 then
+--                 print("Compiled successfully: " .. output)
+--             else
+--                 print("Compilation failed:\n" .. result)
+--             end
+--         end
+-- 
+--         vim.keymap.set("n", "<leader>rc", compile_c_code, { noremap = true, silent = true, buffer = true })
+--     end,
+-- })
