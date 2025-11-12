@@ -1,28 +1,14 @@
-pcall(require, "plugins.colorschemes")
-
-pcall(require, "plugins.plugins")
-
-pcall(require, "plugins.flash")
-
-pcall(require, "plugins.lualine")
-
-pcall(require, "plugins.mason")
-
-pcall(require, "plugins.mason_lspconfig")
-
-pcall(require, "plugins.nvim_tree")
-
-pcall(require, "plugins.one_liner_plugins")
-
-pcall(require, "plugins.telescope")
-
-pcall(require, "plugins.transparent")
-
-pcall(require, "plugins.luasnip")
-
-pcall(require, "plugins.nvim_cmp")
-
-pcall(require, "plugins.nvim_autopairs")
-
-
-
+return {
+    unpack(require("BaibhavPhaijoo.plugins.colorschemes")),
+    unpack(require("BaibhavPhaijoo.plugins.flash")),
+    unpack(require("BaibhavPhaijoo.plugins.lualine")),
+    unpack(require("BaibhavPhaijoo.plugins.mason")),
+    unpack(require("BaibhavPhaijoo.plugins.mason_lspconfig")),
+    unpack(require("BaibhavPhaijoo.plugins.nvim_tree")),
+    unpack(require("BaibhavPhaijoo.plugins.one_liner_plugins")),
+    unpack(require("BaibhavPhaijoo.plugins.telescope")),
+    unpack(require("BaibhavPhaijoo.plugins.transparent")),
+    unpack(require("BaibhavPhaijoo.plugins.luasnip")),
+    unpack(require("BaibhavPhaijoo.plugins.nvim_cmp")),
+    unpack(require("BaibhavPhaijoo.plugins.nvim_autopairs"))
+}

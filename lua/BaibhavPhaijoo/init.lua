@@ -16,8 +16,4 @@ pcall(require,"BaibhavPhaijoo.nvim_tree")
 
 pcall(require,"BaibhavPhaijoo.run_code")
 
-
--- ~/.config/nvim/lua/BaibhavPhaijoo/init.lua
-require("lazy").setup({
-  { import = "BaibhavPhaijoo.plugins" },
-})
+require("lazy").setup({ import = "BaibhavPhaijoo.plugins" })
