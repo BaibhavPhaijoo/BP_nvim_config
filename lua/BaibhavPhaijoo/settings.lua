@@ -21,8 +21,8 @@ vim.opt.shortmess:append("I")
 -- vim.cmd("colorscheme nightfox")
 -- vim.cmd("colorscheme carbonfox")
 -- vim.cmd("colorscheme onedark")
--- vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme gruvbox")
 
-vim.cmd("colorscheme vague")
+-- vim.cmd("colorscheme vague")
 
 vim.o.clipboard = "unnamedplus"
