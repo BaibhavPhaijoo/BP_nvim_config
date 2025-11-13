@@ -1,3 +1,4 @@
+
 vim.o.number = true
 vim.o.relativenumber = true
 
@@ -18,6 +19,8 @@ vim.o.smartindent = true
 -- to remove the intro text
 vim.opt.shortmess:append("I")
 
+vim.o.clipboard = "unnamedplus"
+
 -- vim.cmd("colorscheme nightfox")
 -- vim.cmd("colorscheme carbonfox")
 -- vim.cmd("colorscheme onedark")
@@ -25,4 +28,4 @@ vim.cmd("colorscheme gruvbox")
 
 -- vim.cmd("colorscheme vague")
 
-vim.o.clipboard = "unnamedplus"
+

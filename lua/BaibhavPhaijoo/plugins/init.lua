@@ -10,5 +10,7 @@ return {
     unpack(require("BaibhavPhaijoo.plugins.transparent")),
     unpack(require("BaibhavPhaijoo.plugins.luasnip")),
     unpack(require("BaibhavPhaijoo.plugins.nvim_cmp")),
-    unpack(require("BaibhavPhaijoo.plugins.nvim_autopairs"))
+    unpack(require("BaibhavPhaijoo.plugins.nvim_autopairs")),
+    unpack(require("BaibhavPhaijoo.plugins.zenmode")),
+    unpack(require("BaibhavPhaijoo.plugins.nvim_surround"))
 }

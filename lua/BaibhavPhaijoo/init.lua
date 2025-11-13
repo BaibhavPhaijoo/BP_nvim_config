@@ -6,8 +6,6 @@ pcall(require, "BaibhavPhaijoo.settings")
 
 pcall(require, "BaibhavPhaijoo.keymaps")
 
-pcall(require,"BaibhavPhaijoo.zen-mode")
-
 pcall(require,"BaibhavPhaijoo.xml_axaml_xaml")
 
 pcall(require,"BaibhavPhaijoo.vim_diagnostic")

@@ -57,8 +57,7 @@ vim.keymap.set (
     "n",
     "<leader>L", ":bp<enter>",
     {noremap = true, silent = true
-})
----------------------------------
+}) ---------------------------------
 
 vim.keymap.set("n",
 "<leader>z", ":ZenMode<CR>",
