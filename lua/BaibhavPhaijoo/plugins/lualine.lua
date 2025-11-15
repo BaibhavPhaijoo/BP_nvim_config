@@ -1,6 +1,7 @@
 return {
     {
         "nvim-lualine/lualine.nvim",
+        event = "VertLazy",
         dependencies = { "nvim-tree/nvim-web-devicons" }, -- optional, for nice filetype icons
         config = function()
             require("lualine").setup({
