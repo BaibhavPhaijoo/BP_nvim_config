@@ -4,7 +4,7 @@
 ## Features
   - Splash screen
   - Autocomplete and Lsp
-  - Basic note taking
+  - Basic note taking feature
 ---
 ## How to install?
 
