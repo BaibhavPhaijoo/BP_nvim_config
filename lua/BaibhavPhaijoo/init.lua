@@ -14,4 +14,6 @@ pcall(require,"BaibhavPhaijoo.nvim_tree")
 
 pcall(require,"BaibhavPhaijoo.run_code")
 
+pcall(require,"BaibhavPhaijoo.splash_screen")
+
 require("lazy").setup({ import = "BaibhavPhaijoo.plugins" })
