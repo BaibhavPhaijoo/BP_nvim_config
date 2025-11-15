@@ -16,4 +16,6 @@ pcall(require,"BaibhavPhaijoo.run_code")
 
 pcall(require,"BaibhavPhaijoo.splash_screen")
 
+pcall(require,"BaibhavPhaijoo.notes")
+
 require("lazy").setup({ import = "BaibhavPhaijoo.plugins" })

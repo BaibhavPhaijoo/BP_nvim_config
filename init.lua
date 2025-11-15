@@ -1,2 +1,2 @@
 pcall(require, "BaibhavPhaijoo")
--- Baibhav Phaijoo --
+-- Baibhav:source $MYVIMRC Phaijoo --

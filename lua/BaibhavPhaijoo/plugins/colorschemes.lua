@@ -19,9 +19,9 @@ return  {
                 highlight_groups = {},
             })
             -- vim.cmd("colorscheme rose-pine")
-            -- vim.cmd("colorscheme vague")
+            vim.cmd("colorscheme vague")
             -- vim.cmd("colorscheme onedark")
-            vim.cmd("colorscheme gruvbox")
+            -- vim.cmd("colorscheme gruvbox")
         end,
     },
     {

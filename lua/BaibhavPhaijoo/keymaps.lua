@@ -93,3 +93,15 @@ vim.api.nvim_set_keymap(
     'n', '<leader>s', ':split<CR>', 
     { noremap = true, silent = true }
 )
+
+vim.api.nvim_set_keymap(
+    'n', '<leader>ns', ':OpenNotesHsplit<CR>', 
+    { noremap = true, silent = true }
+)
+
+vim.api.nvim_set_keymap(
+    'n', '<leader>nvs', ':OpenNotesVsplit<CR>', 
+    { noremap = true, silent = true }
+)
+
+
