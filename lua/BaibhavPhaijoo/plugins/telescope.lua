@@ -2,7 +2,7 @@ return {
     {
         "nvim-telescope/telescope.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },  -- required
-        lazy = false,
+        event = "BufReadPre",
         config = function()
             local telescope = require("telescope")
             telescope.setup({

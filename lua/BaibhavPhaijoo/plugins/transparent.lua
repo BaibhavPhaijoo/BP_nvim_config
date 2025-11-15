@@ -2,6 +2,7 @@ return {
     {
         "tribela/transparent.nvim",
         event = "VimEnter",
+        lazy = true;
         config = function()
             require("transparent").setup({
                 -- optional settings here

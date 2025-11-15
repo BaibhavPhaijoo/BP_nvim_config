@@ -1,7 +1,7 @@
 return {
     {
         "williamboman/mason-lspconfig.nvim",
-        lazy = false,
+        event = "BufReadPre",
         priority = 1000, -- make sure it loads before other plugins
 
         config = function()

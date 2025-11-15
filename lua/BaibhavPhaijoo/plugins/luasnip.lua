@@ -1,6 +1,7 @@
 return {
     {
         "L3MON4D3/LuaSnip",
+        lazy = true,
         version = "v2.*", -- follow latest stable release
         uild = "make install_jsregexp", -- optional: enables regex support
         dependencies = {

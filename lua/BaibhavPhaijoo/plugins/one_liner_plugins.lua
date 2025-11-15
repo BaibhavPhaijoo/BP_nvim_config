@@ -4,7 +4,7 @@ return {
 
     { "hrsh7th/cmp-buffer" },        
 
-    { "neovim/nvim-lspconfig", lazy = false, }
+    { "neovim/nvim-lspconfig", event = "InsertEnter" }
 
 }
 -- , opts = {} 
