@@ -1,6 +1,10 @@
 # Minimal Neovim Configuration
 ## This is a minimal neovim configuration. It uses lazy as its package manager.
 
+## Features
+  - Splash screen
+  - Autocomplete and Lsp
+  - Basic note taking
 ---
 ## How to install?
 
