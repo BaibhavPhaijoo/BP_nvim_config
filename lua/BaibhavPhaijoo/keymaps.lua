@@ -104,4 +104,4 @@ vim.api.nvim_set_keymap(
     { noremap = true, silent = true }
 )
 
-
+vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" })

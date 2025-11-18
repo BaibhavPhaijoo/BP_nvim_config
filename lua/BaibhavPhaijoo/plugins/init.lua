@@ -13,5 +13,7 @@ return {
     unpack(require("BaibhavPhaijoo.plugins.nvim_autopairs")),
     unpack(require("BaibhavPhaijoo.plugins.zenmode")),
     unpack(require("BaibhavPhaijoo.plugins.nvim_surround")),
-    unpack(require("BaibhavPhaijoo.plugins.mini"))
+    unpack(require("BaibhavPhaijoo.plugins.mini")),
+    unpack(require("BaibhavPhaijoo.plugins.toggle_term"))
 }
+
