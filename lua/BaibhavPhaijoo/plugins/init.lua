@@ -14,6 +14,7 @@ return {
     unpack(require("BaibhavPhaijoo.plugins.zenmode")),
     unpack(require("BaibhavPhaijoo.plugins.nvim_surround")),
     unpack(require("BaibhavPhaijoo.plugins.mini")),
-    unpack(require("BaibhavPhaijoo.plugins.toggle_term"))
+    unpack(require("BaibhavPhaijoo.plugins.toggle_term")),
+    unpack(require("BaibhavPhaijoo.plugins.grapple"))
 }
 

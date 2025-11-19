@@ -16,7 +16,7 @@ return {
       shading_factor = 2,
 
       -- Start in insert mode
-      start_in_insert = true,
+      start_in_insert = true, --false--
 
       -- Persist size across sessions
       persist_size = true,
