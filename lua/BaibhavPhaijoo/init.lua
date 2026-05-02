@@ -20,3 +20,4 @@ pcall(require,"BaibhavPhaijoo.notes")
 
 
 require("lazy").setup({ import = "BaibhavPhaijoo.plugins" })
+

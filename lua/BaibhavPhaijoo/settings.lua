@@ -28,4 +28,5 @@ vim.cmd("colorscheme gruvbox")
 
 -- vim.cmd("colorscheme vague")
 
+vim.o.smartindent = true
 
