@@ -24,7 +24,6 @@ end
 vim.api.nvim_set_keymap("n", "<leader>nf", ":lua CreateFileWithoutOpening()<CR>", { noremap = true, silent = true })
 
 -- To move one character ahead and go into insert mode --
---
 vim.keymap.set(
     "i",
     "<C-l>", "<Right>",
@@ -32,17 +31,7 @@ vim.keymap.set(
 })
 
 
-vim.keymap.set(
-    "i",
-    "<C-j>", "<Left>",
-    { noremap = true, silent = true 
-})
-
-vim.keymap.set(
-    {"n"},
-    "<leader>e", ":Ex<enter>",
-    {noremap = true, silent = true
-})
+-----------------------------------------------------------
 
 -- To switch between buffers
 ---------------------------------
@@ -72,14 +61,14 @@ vim.keymap.set (
 })
 
 
-vim.keymap.set (
+vim.keymap.set ( -- to indent the code
     "n",
     "<leader><leader>", ":norm gg=G<enter>",
     {noremap = true, silent = true
 })
 
 
-vim.api.nvim_set_keymap(
+vim.api.nvim_set_keymap( -- for nvim tree
     'n', '<leader>nt', ':NvimTreeToggle<CR>', 
     { noremap = true, silent = true }
 )
@@ -94,6 +83,7 @@ vim.api.nvim_set_keymap(
     { noremap = true, silent = true }
 )
 
+-- To open notes --
 vim.api.nvim_set_keymap(
     'n', '<leader>ns', ':OpenNotesHsplit<CR>', 
     { noremap = true, silent = true }
@@ -103,5 +93,10 @@ vim.api.nvim_set_keymap(
     'n', '<leader>nvs', ':OpenNotesVsplit<CR>', 
     { noremap = true, silent = true }
 )
+--   
 
-vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+
+vim.keymap.set(
+    "t", "<Esc>", [[<C-\><C-n>]],
+    { desc = "Exit terminal mode" }
+)
