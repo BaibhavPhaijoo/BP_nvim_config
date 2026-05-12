@@ -9,6 +9,7 @@
   - Quick file navigation with Grapple.nvim
   - Floating terminal
   - NvimTree
+  - And many more...
 ---
 ## How to install?
 
