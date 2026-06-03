@@ -9,8 +9,28 @@
   - Quick file navigation with Grapple.nvim
   - Floating terminal
   - NvimTree
+  - Mnay useful keymaps
   - And many more...
 ---
+
+## Some screenshots: 
+#
+Splash Screen (Main menu)
+----
+![Main Menu](assets/screenshots/nvimMainMenu.png)
+
+----
+You can install various Language Servers.
+----
+![Main Menu](assets/screenshots/LspServers.png)
+
+----
+You can use those language servers to see live errors, warning and hints.
+-----
+![Main Menu](assets/screenshots/Lsp.png)
+
+----
+
 ## How to install?
 
 ### Windows
@@ -47,5 +67,7 @@ git clone https://github.com/PhaijooBaibhaav/nvim_config-Baibhav.git ~/.config/n
 3. Open Neovim and run `:Lazy sync` to install plugins.
 
 ---
-## Made by: ***Baibhav Phaijoo***
+
+## Thanks for visiting! Enjoy the neovim experience.
+Made by: ***Baibhav Phaijoo***
 
